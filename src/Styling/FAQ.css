@@ -1,0 +1,210 @@
+.main-faq{
+    margin-top: 7vw;
+    margin-bottom: 4vw;
+}
+
+.main-faq-title{
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+}
+
+.main-faq-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    color: #131313;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.main-faq-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.faq-1,.faq-2,.faq-3,.faq-4,.faq-5,.faq-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px 1px #00000026;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 2vw;
+    
+}
+
+
+
+.faq-1-1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: #D1D1D1;
+}
+
+.faq-1-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 400;
+    width: 72vw;
+}
+
+.faq-1-3{
+    width: 2vw;
+    cursor: pointer;
+}
+
+.faq-11,.faq-22,.faq-33,.faq-44,.faq-55,.faq-66{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px 1px #00000026;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+    background: #3B3D3C;
+    margin-bottom: 2vw;
+}
+
+.faq-11-1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: white;
+}
+
+.faq-11-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 400;
+    width: 72vw;
+    color: white;
+}
+.faq-11-3{
+    width: 2vw;
+}
+
+
+.ans-none{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main-faq-title{
+        font-size: 3.5vw;
+    }
+    
+    .main-faq-para{
+        font-size: 2.2vw;
+    }
+    
+    .main-faq-1{
+        width: 85%;
+        margin: auto;
+        margin-top: 5vw;
+    }
+    
+    .faq-1,.faq-2,.faq-3,.faq-4,.faq-5,.faq-6{
+        margin-bottom: 3vw;    
+    }
+    
+    
+    
+    .faq-1-1{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .faq-1-2{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.7vw;
+        font-weight: 400;
+        width: 72vw;
+    }
+    
+    .faq-1-3{
+        width: 2.5vw;
+        cursor: pointer;
+    }
+    
+    .faq-11,.faq-22,.faq-33,.faq-44,.faq-55,.faq-66{
+        margin-bottom: 3vw;
+    }
+    
+    .faq-11-1{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .faq-11-2{
+        font-size: 1.7vw;
+    }
+    .ans-none{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .main-faq-title{
+        font-size: 4.5vw;
+    }
+    
+    .main-faq-para{
+        margin-top: 4vw;
+        font-size: 3.2vw;
+        width: 90%;
+        text-align: justify;
+    }
+    
+    .main-faq-1{
+        width: 90%;
+        margin: auto;
+        margin-top: 5vw;
+    }
+    
+    .faq-1,.faq-2,.faq-3,.faq-4,.faq-5,.faq-6{
+        margin-bottom: 4vw;    
+    }
+    
+    
+    
+    .faq-1-1{
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-left: 2vw;
+    }
+    
+    .faq-1-2{
+        font-size: 2.7vw;
+        font-weight: 400;
+        width: 72vw;
+    }
+    
+    .faq-1-3{
+        width: 3vw;
+        cursor: pointer;
+    }
+    
+    .faq-11,.faq-22,.faq-33,.faq-44,.faq-55,.faq-66{
+        margin-bottom: 4vw;
+    }
+    
+    .faq-11-1{
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-left: 2vw;
+    }
+    
+    .faq-11-2{
+        font-size: 2.5vw;
+    }
+    .faq-11-3{
+        width: 3vw;
+    }
+    .ans-none{
+        display: flex;
+    }
+}

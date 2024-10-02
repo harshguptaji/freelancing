@@ -1,0 +1,165 @@
+.about-title{
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    padding-top: 5vw;
+    font-family: 'Inter', sans-serif;
+    color: #131313;
+}
+
+.about-para{
+    text-align: center;
+    width: 65vw;
+    margin: auto;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.about-section{
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.about-section ul{
+    display: flex;
+    justify-content: space-between;
+}
+.about-section ul li{
+    list-style: none;
+}
+
+.about-section-1, .about-section-2, .about-section-3, .about-section-4{
+    width: 17vw;
+    padding: 1vw 0.8vw 1vw 0.8vw;
+    box-shadow: 0px 4px 19.6px 0px #0000001C;
+    margin: 1vw;
+}
+.about-section-1-img-div, .about-section-2-img-div, .about-section-3-img-div, .about-section-4-img-div{
+    margin-top: 2vw;
+}
+.about-section-1-title, .about-section-2-title, .about-section-3-title, .about-section-4-title{
+    margin-top: 2vw;
+    color: #131313;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.about-section-1-para, .about-section-2-para, .about-section-3-para, .about-section-4-para{
+    color: #131313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    text-align: justify;
+    margin-top: 1vw;
+}
+
+.about-section-1-img, .about-section-2-img, .about-section-3-img, .about-section-4-img{
+    width: 3vw;
+    height: auto;
+}
+
+@media only screen and (max-width: 780px) {
+    .about-section{
+        width: 100vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .about-section ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .about-section-1, .about-section-2, .about-section-3, .about-section-4{
+        width: 60vw;
+        padding: 2vw 3vw 3vw 3vw;
+        margin: 3vw;
+    }
+    .about-section-1-img, .about-section-2-img, .about-section-3-img, .about-section-4-img{
+        width: 4vw;
+        height: auto;
+    }
+    .about-section-1-title, .about-section-2-title, .about-section-3-title, .about-section-4-title{
+        font-size: 2.5vw;
+    }
+    .about-section-1-para, .about-section-2-para, .about-section-3-para, .about-section-4-para{
+        font-size: 1.7vw;
+    }
+    .about-para{
+        width: 70vw;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .about-section{
+        width: 100vw;
+    }
+    .about-section ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .about-section-1, .about-section-2, .about-section-3, .about-section-4{
+        width: 70vw;
+        padding: 2vw 3vw 3vw 3vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+
+    }
+    .about-section-1-img, .about-section-2-img, .about-section-3-img, .about-section-4-img{
+        width: 4vw;
+        height: auto;
+    }
+    .about-section-1-title, .about-section-2-title, .about-section-3-title, .about-section-4-title{
+        font-size: 2.5vw;
+    }
+    .about-section-1-para, .about-section-2-para, .about-section-3-para, .about-section-4-para{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about-section{
+        width: 100vw;
+    }
+    .about-section ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .about-section-1, .about-section-2, .about-section-3, .about-section-4{
+        width: 90vw;
+        padding: 3vw 4vw 4vw 4vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+
+    }
+    .about-section-1-img, .about-section-2-img, .about-section-3-img, .about-section-4-img{
+        width: 6vw;
+        height: auto;
+    }
+    .about-section-1-title, .about-section-2-title, .about-section-3-title, .about-section-4-title{
+        font-size: 3.5vw;
+    }
+    .about-section-1-para, .about-section-2-para, .about-section-3-para, .about-section-4-para{
+        font-size: 3vw;
+    }
+    .about-para{
+        width: 80vw;
+        font-size: 2.7vw;
+        text-align: justify;
+    }
+    .about-title{
+        font-size: 4vw;
+        padding-top: 8vw;
+    }
+}

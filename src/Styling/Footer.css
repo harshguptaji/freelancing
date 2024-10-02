@@ -1,0 +1,473 @@
+.main-footer{
+    border: 1px solid black;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    background: #3B3D3C;
+}
+
+.footer-1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.footer-11-title{
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-bottom: 1vw;
+}
+
+.footer-11-sub{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;  
+    margin-top: 1vw; 
+    opacity: 0.5;
+    font-size: 1vw;
+}
+
+.footer-11-para{
+    color: #F1FAEE;
+    font-size: 0.7vw;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+
+}
+
+.input-news{
+    color: #8E8E93;
+    border: none;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    align-items: center;
+    width: 15vw;
+}
+
+.footer-cir{
+    background: #D9D9D9;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.footer-darell{
+    opacity: 50%;
+    font-family: Poppins;
+    font-size: 1vw;
+    color: white;
+}
+
+.footer-no{
+    font-family: Poppins;
+    font-size: 0.8vw;
+    color: white;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    width: 11vw;
+    align-items: center;
+}
+.flex-1-img{
+    width: 3vw;
+}
+
+.hotline{
+    opacity: 50%;
+    font-family: Poppins;
+    font-size: 1vw;
+    color: white;
+}
+
+.flex{
+    display: flex; 
+    margin-top: 1vw;
+    width: 11vw;
+    align-items: center;
+}
+
+.footer-btn{
+    border: 1px solid #FFFFFF1A;
+    background: #FFFFFF1A;
+    font-size: 1vw;
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 1vw;
+    width: 12.5vw;
+    margin-top: 1vw;
+}
+
+.flex-2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.flex-2-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14vw;
+}
+.build{
+    width: 2vw;
+}
+
+.flex-2-1-title{
+    font-family: Poppins;
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.flex-2-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.flex-2-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vw;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .footer-1{
+        width: 90%;
+    }
+    
+    
+    .footer-11-title{
+        font-size: 1.7vw;
+    }
+    
+    .footer-11-sub{
+        font-size: 1.2vw;
+    }
+    
+    .footer-11-para{
+        font-size: 1.2vw;
+        margin-top: 0.5vw;
+    }
+    
+    .input-news{
+        color: #8E8E93;
+        border: none;
+        padding: 1vw;
+        border-radius: 1vw;
+        margin-top: 1vw;
+        font-size: 1.2vw;
+    }
+    
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+        align-items: center;
+        width: 17vw;
+    }
+    
+    .footer-cir{
+        background: #D9D9D9;
+        width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 50%;
+    }
+    
+    .footer-darell{
+        opacity: 50%;
+        font-family: Poppins;
+        font-size: 1.3vw;
+        color: white;
+        letter-spacing: 0.8px;
+    }
+    
+    .footer-no{
+        font-family: Poppins;
+        font-size: 1.2vw;
+        color: white;
+    }
+    
+    .flex-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+        width: 12vw;
+        align-items: center;
+    }
+    .flex-1-img{
+        width: 3vw;
+    }
+    
+    .hotline{
+        opacity: 50%;
+        font-family: Poppins;
+        font-size: 1.5vw;
+        color: white;
+    }
+    
+    .flex{
+        display: flex; 
+        margin-top: 1vw;
+        width: 13vw;
+        align-items: center;
+    }
+    
+    .footer-btn{
+        border: 1px solid #FFFFFF1A;
+        background: #FFFFFF1A;
+        font-size: 1.3vw;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 1vw;
+        width: 12.5vw;
+        margin-top: 1vw;
+    }
+    
+    .flex-2{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3vw;
+    }
+    
+    .flex-2-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 13vw;
+    }
+    .build{
+        width: 2vw;
+    }
+    
+    .flex-2-1-title{
+        font-family: Poppins;
+        font-size: 1.2vw;
+        color: white;
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+    
+    .flex-2-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 30vw;
+        cursor: pointer;
+    }
+    .footer-link{
+        font-size: 1.5vw;
+    }
+    
+    .flex-2-3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25vw;
+        cursor: pointer;
+    }
+    .social-img{
+        width: 5vw;
+    }
+    .arr-img{
+        width: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .footer-1{
+        width: 80%;
+        flex-direction: column;
+    }
+    
+    
+    .footer-11-title{
+        font-size: 3.5vw;
+        letter-spacing: 0.2vw;
+    }
+    
+    .footer-11-sub{
+        font-size: 3vw;
+        letter-spacing: 0.2vw;
+    }
+    
+    .footer-11-para{
+        font-size: 2.2vw;
+        letter-spacing: 0.2vw;
+    }
+    
+    .input-news{
+        color: #8E8E93;
+        border: none;
+        padding: 1.5vw 2vw;
+        border-radius: 5px;
+        margin-top: 2vw;
+        font-size: 3vw;
+        width: 35vw;
+    }
+
+    .footer-22{
+        margin-top: 5vw;
+    }
+    
+    .footer-flex{
+        width: 45%;
+    }
+    
+    .footer-cir{
+        background: #D9D9D9;
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+    }
+    
+    .footer-darell{
+        opacity: 50%;
+        font-family: Poppins;
+        font-size: 3vw;
+        color: white;
+        letter-spacing: 0.8px;
+    }
+    
+    .footer-no{
+        font-family: Poppins;
+        font-size: 2.2vw;
+        color: white;
+    }
+    
+    .flex-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+        width: 24vw;
+        align-items: center;
+    }
+    .flex-1-img{
+        width: 7vw;
+    }
+    .marg-top{
+        margin-top: 5vw;
+    }
+    
+    .hotline{
+        opacity: 50%;
+        font-family: Poppins;
+        font-size: 3vw;
+        color: white;
+        letter-spacing: 0.2vw;
+        margin-bottom: 0.2vw;
+    }
+    
+    .flex{
+        display: flex; 
+        margin-top: 1vw;
+        width: 40%;
+        align-items: center;
+        
+    }
+    
+    .footer-btn{
+        border: 1px solid #FFFFFF1A;
+        background: #FFFFFF1A;
+        font-size: 3.5vw;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        padding: 1vw 1.5vw;
+        border-radius: 1vw;
+        width: 30.5vw;
+        margin-top: 1vw;
+        letter-spacing: 0.2vw;
+        margin-top: 2vw;
+    }
+    
+    .flex-2{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3vw;
+        margin-top: 5vw;
+    }
+    
+    .flex-2-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+    }
+    .build{
+        width: 7vw;
+    }
+    
+    .flex-2-1-title{
+        font-family: Poppins;
+        font-size: 3vw;
+        color: white;
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+    
+    .flex-2-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 40%;
+        cursor: pointer;
+        display: none;
+    }
+    .footer-link{
+        font-size: 3vw;
+    }
+    
+    .flex-2-3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        cursor: pointer;
+    }
+    .social-img{
+        width: 8vw;
+    }
+    .arr-img{
+        width: 4vw;
+    }
+}

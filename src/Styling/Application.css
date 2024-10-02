@@ -1,0 +1,185 @@
+.application-main{
+    width: 100%;
+}
+
+.application-title{
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    padding-top: 5vw;
+    font-family: 'Inter', sans-serif;
+    color: #131313;
+}
+
+.application-para{
+    text-align: center;
+    width: 65vw;
+    margin: auto;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.flex-div{
+    width: 60vw;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.flex-div ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-div ul li{
+    list-style: none;
+}
+
+.flex-div-1, .flex-div-2, .flex-div-3, .flex-div-4{
+    width: 28vw;
+    margin-bottom: 2vw;
+    padding: 2vw 2vw 1vw 2vw;
+    box-shadow: 0px 4px 27px 0px #00000012;
+}
+
+.flex-div-1-img-div, .flex-div-2-img-div, .flex-div-3-img-div, .flex-div-4-img-div{
+    margin: auto;
+    width: 4vw;
+    margin-top: 1vw;
+}
+.flex-div-1-img, .flex-div-2-img, .flex-div-3-img, .flex-div-4-img{
+    width: 4vw;
+}
+
+.flex-div-1-title, .flex-div-2-title, .flex-div-3-title, .flex-div-4-title{
+    text-align: center;
+    margin-top: 1.5vw;
+    color: #131313;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+.flex-div-1-para, .flex-div-2-para, .flex-div-3-para, .flex-div-4-para{
+    text-align: center;
+    margin-top: 0.5vw;
+    color: #131313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .flex-div{
+        width: 75vw;
+    }
+    .flex-div-1, .flex-div-2, .flex-div-3, .flex-div-4{
+        width: 35vw;
+    }
+    .application-para{
+        width: 70vw;
+        font-size: 1.5vw;
+    }
+    .flex-div-1-title, .flex-div-2-title, .flex-div-3-title, .flex-div-4-title{
+        margin-top: 1.9vw;
+        font-size: 1.8vw;
+        margin-bottom: 1.5vw;
+    }
+    .flex-div-1-para, .flex-div-2-para, .flex-div-3-para, .flex-div-4-para{
+        margin-top: 1vw;
+        font-size: 1.3vw;
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-div{
+        width: 85vw;
+    }
+    .flex-div-1, .flex-div-2, .flex-div-3, .flex-div-4{
+        width: 40vw;
+    }
+    .application-para{
+        width: 80vw;
+        font-size: 2vw;
+    }
+    .flex-div-1-title, .flex-div-2-title, .flex-div-3-title, .flex-div-4-title{
+        font-size: 2.2vw;
+    }
+    .flex-div-1-para, .flex-div-2-para, .flex-div-3-para, .flex-div-4-para{
+        font-size: 1.7vw;
+        text-align: justify;
+    }
+    .flex-div-1-img, .flex-div-2-img, .flex-div-3-img, .flex-div-4-img{
+        width: 6vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .flex-div{
+        width: 90vw;
+    }
+    .flex-div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .application-title{
+        font-size: 3.5vw;
+    }
+    .flex-div-1, .flex-div-2, .flex-div-3, .flex-div-4{
+        width: 60vw;
+        padding: 3vw;
+    }
+    .application-para{
+        width: 80vw;
+        font-size: 2.7vw;
+        text-align: justify;
+    }
+    .flex-div-1-title, .flex-div-2-title, .flex-div-3-title, .flex-div-4-title{
+        font-size: 3vw;
+    }
+    .flex-div-1-para, .flex-div-2-para, .flex-div-3-para, .flex-div-4-para{
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+    .flex-div-1-img, .flex-div-2-img, .flex-div-3-img, .flex-div-4-img{
+        width: 8vw;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .flex-div{
+        width: 95vw;
+    }
+    .flex-div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .application-title{
+        font-size: 4vw;
+    }
+    .flex-div-1, .flex-div-2, .flex-div-3, .flex-div-4{
+        width: 75vw;
+        padding: 5vw;
+    }
+    .application-para{
+        width: 85vw;
+        font-size: 3.3vw;
+        text-align: justify;
+    }
+    .flex-div-1-title, .flex-div-2-title, .flex-div-3-title, .flex-div-4-title{
+        font-size: 4vw;
+    }
+    .flex-div-1-para, .flex-div-2-para, .flex-div-3-para, .flex-div-4-para{
+        font-size: 3vw;
+        text-align: justify;
+    }
+    .flex-div-1-img, .flex-div-2-img, .flex-div-3-img, .flex-div-4-img{
+        width: 8vw;
+    }
+}

@@ -1,0 +1,135 @@
+.reach-section{
+    position: relative;
+    background: #3B3D3C;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vw;
+    border-radius: 1vw;
+}
+
+.reach-img-div{
+    position: absolute;
+    right: 1%;
+    top: 15%;
+}
+.reach-img{
+    width: 35vw;
+}
+
+.reach-img-content{
+    padding-top: 5vw;
+    padding-left: 5vw;
+    width: 57%;
+}
+
+.reach-img-content-title{
+    font-size: 2.5vw;
+    color: white;
+    margin-bottom: 1vw;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.5vw;
+}
+
+.reach-img-content-para{
+    font-size: 1.3vw;
+    color: white;
+    text-align: left;
+    margin-bottom: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.reach-img-content-btn{
+    font-size: 1.3vw;
+    width: 13vw;
+    color: #3B3D3C;
+    font-weight: 400;
+    border: none;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 0.7vw 0.8vw;
+    margin-bottom: 3vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .reach-section{
+        width: 90%;
+    }
+    
+    .reach-img-div{
+        position: absolute;
+        right: 1%;
+        top: 24%;
+    }
+    .reach-img{
+        width: 37vw;
+    }
+    
+    .reach-img-content{
+        padding-top: 5vw;
+        padding-left: 5vw;
+        width: 57%;
+    }
+    
+    .reach-img-content-title{
+        font-size: 3.5vw;
+    }
+    
+    .reach-img-content-para{
+        font-size: 1.6vw;    
+    }
+    
+    .reach-img-content-btn{
+        font-size: 1.5vw;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .reach-section{
+        position: static;
+        background: #3B3D3C;
+        width: 95%;
+    }
+    
+    .reach-img-div{
+        position: static;
+        width: 70vw;
+        margin: auto;
+    }
+    .reach-img{
+        width: 70vw;
+    }
+    
+    .reach-img-content{
+        padding-top: 5vw;
+        padding-left: 0vw;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .reach-img-content-title{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .reach-img-content-para{
+        font-size: 2.7vw;
+        margin-top: 2vw;
+        text-align: justify;
+        margin-bottom: 2.5vw;
+    }
+    
+    .reach-img-content-btn{
+        font-size: 3vw;
+        width: 30vw;
+        font-weight: 900;
+        font-weight: 900;
+        border-radius: 5px;
+        padding: 1vw 0.8vw;
+        margin-bottom: 3vw;
+        font-family: 'Poppins', sans-serif;
+    }
+}
